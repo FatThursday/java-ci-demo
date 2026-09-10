@@ -27,7 +27,7 @@ pipeline {
                     sh '''
                         /opt/maven/bin/mvn -B \
                           clean verify \
-                          org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+                          org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar
                     '''
                 }
             }
